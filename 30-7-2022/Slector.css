@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; font-weight: 400;
+}
+#MAIN{
+    background-color: aqua;
+}
+.SUB{
+    background-color: blue;
+}
+P{ 
+    background-color: rgb(222, 205, 237);
+}
