@@ -1,0 +1,28 @@
+
+header p {
+    color: blue;
+}
+li a {
+    color: brown; background-color: aquamarine;
+}
+section.myarticles h2 {
+    color: blueviolet;
+}
+section.myarticles > h2{
+    color: brown;
+}
+h2+p{ 
+    color: lightslategray;
+}
+ul+p{
+    color: palegreen;
+}
+
+
+
+header{
+    background-color: bisque;
+}
+section.myarticles{
+    background-color: antiquewhite;
+}
