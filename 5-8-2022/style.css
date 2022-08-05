@@ -1,0 +1,15 @@
+h2, img{
+    border: 4px solid red;
+}
+div{
+    border: 4px solid green;
+}
+li{
+    border: 5px solid blue;
+}
+span{
+    border: 5px solid black;
+}
+p{
+    border-bottom: 5px red solid;
+}
