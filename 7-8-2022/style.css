@@ -1,0 +1,18 @@
+h1{
+    background-color: #cdcdcd ;
+    text-align: center;
+    padding: 15px opx;
+
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto ;
+}
+section{
+    border: 2px solid grey;
+    padding-left: 15px; padding-right: 15px;
+}
+.about{
+    margin-bottom: 40px;
+}
