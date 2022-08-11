@@ -1,0 +1,31 @@
+body{
+    padding: 0px 30px;
+}
+h1{
+    text-align: center;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    border-bottom: 2px solid #444;
+    font-size: 20px;
+}
+nav ul {
+    padding-left: 0;
+    text-align: center;
+}
+nav{
+    background-color: #cecece;
+}
+a{
+    color: #444;
+    text-decoration: none;
+}
+section{
+    margin-top: 40px;
+}
+h2{
+    color: #222;
+    border-bottom: 1px solid #444;
+}
