@@ -1,0 +1,22 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+hr{
+    width: 500px;
+    margin: 10px;
+    border: solid 5px red;
+    box-sizing: border-box;
+}
+.box1{
+    width: 500px;
+    background-color: plum;
+    border: 10px solid black;
+    box-sizing: border-box;
+    margin: 10px;
+}
