@@ -1,0 +1,19 @@
+a:link{
+    color: green;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: black;
+}
+
+
+input:focus{
+    padding: 20px;
+    outline: none;
+    border: solid 3px black;
+}
