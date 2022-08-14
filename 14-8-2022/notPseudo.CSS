@@ -1,0 +1,9 @@
+body :not(h1){
+    color: blue;
+}
+div:empty{
+    background-color: blue;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
