@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5% ;
+}
+:root{
+    font-size: 10px;
+}
+h1{
+    font-size: 5rem;
+    margin: 2.5rem;
+    padding: 4.5rem;
+}
+p{
+    font-size: 3rem;
+    margin: 2.5rem;
+    padding: 4.5rem;
+}
