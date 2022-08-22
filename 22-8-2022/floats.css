@@ -1,0 +1,43 @@
+.articles{
+    border: 10px solid black;
+    margin: 20px;
+}
+.latest{
+    width: 25%;
+    background-color: antiquewhite;
+    float: left;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+.update{
+    width: 25%;
+    background-color:aqua;
+    float: left;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+.culture{
+    width: 25%;
+    background-color:beige;
+    float: left;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+.tranding{
+    width: 25%;
+    background-color:blanchedalmond;
+    float: left;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
