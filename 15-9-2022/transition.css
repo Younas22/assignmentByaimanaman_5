@@ -1,0 +1,13 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: lightgreen;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.box:hover{
+    background: lightcoral;
+    width: 110px;
+    border-radius: 50%;
+}
