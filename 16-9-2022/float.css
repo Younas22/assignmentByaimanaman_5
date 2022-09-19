@@ -1,0 +1,46 @@
+.box-wrap{ 
+    border: 10px solid black;
+    display: flex;
+    /* flex-direction: row; */
+     /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: space-around; */
+    /* height: 200px; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-content: flex-start; */
+    /* align-content: center; */
+    flex-flow: nowrap row;
+    /* width: 1000PX; */
+   
+} 
+.box{
+    border: 2px solid black;
+    width: 300px;
+    flex-basis: 500PX;
+    /* flex-grow: 1; */
+    /* flex-shrink: ; */
+   
+}
+.box1{
+    background-color: aqua;
+    align-self: center;
+    /* flex-grow: 2; */
+    order: 0;
+}
+.box2{
+    background-color: blanchedalmond;
+    align-self: flex-end;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: blueviolet;
+}
+.box5{
+    background-color: brown;
+}
