@@ -1,0 +1,155 @@
+
+
+/* #################### navbar ###############  */
+nav{
+    position: fixed;
+    z-index: 9;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+}
+.nav{
+    background-color: white !important;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+}
+
+nav-item{
+    color: #012970 !important;
+    font-weight: 600;
+}
+
+
+/* ##################### hero ####################### */
+.hero{
+    height: 100vh;
+    align-items:center !important ;
+}
+
+
+
+.headertext{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    font-size: 48px;
+    font-weight: 700px;
+    color: #012970;
+}
+
+.text1{
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    color: #444444;
+
+}
+.headerimg{
+    margin-top: 30px;
+}
+
+
+/* ############### about section styling ################  */
+.about{
+   box-sizing: border-box;
+   align-items:center !important ;
+   background-color: #f6f9ff;
+}
+
+.abouttext{
+   background-color: #f6f9ff; 
+   margin: auto;
+}
+.about img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* ################ services ######################  */
+
+.services{
+    margin-top: 80px;
+    margin-bottom: 80px;
+  
+  
+}
+.div{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgba(0, 0, 0, 0.06) 0px 10px 4px 0px inset; */
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 20px -20px;
+    padding-right: 15px;
+}
+.services h4{
+    color: #444444;
+}
+.services h2{
+    color: #012970;
+}
+
+.services img{
+    width: 70%;
+    padding-left: 15px;
+
+}
+
+
+
+
+.cta{
+    margin-bottom: 80px;
+    margin-top: 50px;
+    background-color: #F6F9FF;
+    padding: 50px;
+   
+}
+.img1{
+    background-color: yellow !important;
+}
+.img2{
+    background-color: blue;
+}
+.img3{
+    background-color: #012970;
+}
+.img4{
+    background-color: aquamarine;
+}
+
+
+
+
+
+.portfolio{
+    background-color: #F3F4F6;
+    padding: 80px;
+    margin-bottom: 100px;
+}
+.portfolio img{
+    width: 90%;
+    box-sizing: border-box;
+    /* margin-left: 10px; */
+}
+.row2{
+    padding-top: 50px;
+}
+.pimg{
+   
+    padding-left: 10px;
+   
+}
+
+.tcont{
+    color: #012970;
+}
+
+
+.form{
+    background-color: white;
+    margin: 50px;
+
+}
+
+.footer{
+    padding-bottom: 10px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+}
+
