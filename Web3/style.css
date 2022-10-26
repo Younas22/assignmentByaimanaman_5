@@ -1,0 +1,43 @@
+.hero-section{
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZGluZyUyMHdhbGxwYXBlcnxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60);
+/* height: 70vh;  */
+}
+.hero1{
+    /* height: 70vh; */
+}
+.h1{
+padding-top: 120px;
+   margin: auto;
+}
+.img1{
+    padding-top: 60px;
+}
+.btn{
+    background-color: #ff781f !important;
+    color: white;
+    padding: 20px;
+}
+
+.servicesdiv{
+    background-color:#485985;
+    padding-bottom: 60px;
+}
+.img2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1133924836?b=1&k=20&m=1133924836&s=170667a&w=0&h=ZdqnvMV006VsJnIlV3qTo2nsOXHZTYm8iogBuVz2LJg=);
+    height: 40vh;
+}
+.img2h, .img3h{
+    padding-top: 30px;
+}
+.fa-arrow-down-to-line{
+    color: black !important;
+}
+.getintouch{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1133924836?b=1&k=20&m=1133924836&s=170667a&w=0&h=ZdqnvMV006VsJnIlV3qTo2nsOXHZTYm8iogBuVz2LJg=);
+    height: 40vh;
+    
+}
+
+.contact{
+    background-color: #485985;
+}
