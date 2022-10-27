@@ -2,16 +2,15 @@
 
 
 
-.row1{
-    height: 90vh;
-}
+
 
 .serverdiv{
     text-align: center;
+    padding-bottom: 50px;
 }
 
-.div2{
-    height: 70vh;
+.portfolioh{
+   padding-top: 40px;
 }
 .serverh{
     padding-bottom: 40px;
