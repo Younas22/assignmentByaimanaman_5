@@ -1,0 +1,92 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.bg-orange{
+    background-color:#5E17EB;
+}
+.fab{
+padding-left: 20px !important;
+}
+.hero{
+    background-image: url(./GETTING\ STARTED.png);
+    width: 100%;
+}
+.hero-text{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.fa-play{
+    color: white !important;
+}
+.span{
+    background-color: #5E17EB;
+    color: white;
+    padding: 7px;
+    
+}
+
+.cta{
+    background-image: url(./cta.png);
+    height: auto;
+    width: 100%;
+}
+
+.cta-div{
+    width: 300px;
+    height: 300px !important;
+    background: #5E17EB !important;
+    padding: 30px;
+    color: white;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+.blue{
+    background-color: #5E17EB;
+}
+.cta-img{
+    border-radius: 50%;
+    align-items: center !important;
+}
+.pro-text{
+  
+    padding: 2px;
+    align-items: center !important;
+    /* position: absolute; */
+    background-color: white !important;
+}
+
+.image-fluid{
+    /* background-image: url(./GETTING\ STARTED\ \(1980\ ×\ 1080\ px\).png); */
+    height: auto !important;
+ 
+}
+
+.form-control{
+    height:70px;
+    /* background-color:#000; */
+    font-size:22px;
+    color:#fff;
+}
+
+.form-control:focus{
+    background-color:#000;
+    box-shadow:none;
+    box-shadow:none;
+    border:none;
+    color:#fff;
+}
+.search button{
+    
+    top:10px;
+    width:120px;
+    height:50px;
+    right:10px;
+    font-size:17px;
+    background-color: #5E17EB;
+}
+
+.fticon .fab{
+    color: white !important;
+}

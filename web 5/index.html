@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo WEB 5</title>
+    <link rel="icon" type="image/x-icon" href="./[removal.ai]_tmp-635ebdf440765.png">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <div class="container d-flex flex-row-reverse icon">
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$ HEADER  START ############################## -->
+
+    <nav class="navbar navbar-expand-sm navbar-white bg-white">
+        <div class="container">
+
+            <a class="navbar-brand" href="javascript:void(0)"><img
+                    src="data:image/png;base64,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"
+                    alt="" width="40px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ms-auto">
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">HOME</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                            <li><a class="dropdown-item" href="#">Another link</a></li>
+                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PAGES</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">WORK</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">BLOG</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">SHOP</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">STARTER</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link bg-orange text-white" href="javascript:void(0)">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </nav>
+
+
+
+
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ hero text  -->
+
+
+
+    <div class="container-fluid hero">
+        <div class="container d-flex justify-content-center hero-text">
+            <div class="text-center">
+                <i class="fa-solid fa-play fa-4x"></i> <br>
+                <h1 class="text-white">LET'S GET YOU STARTED</h1>
+                <P class="text-white opacity-75">Convert more videos and win more templates with this bussiness</P>
+                <input type="text" name="" id="" placeholder="Name">
+                <input type="text" name="" id="" placeholder="Phone">
+                <input type="text" name="" id="" placeholder="Email">
+                <input type="text" name="" id="" placeholder="Get Started"> <br>
+                <P class="text-white opacity-75">By filling these input fields you are re-directed to the deals page</P>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ templately startt  -->
+
+
+
+
+    <div class="container templately pt-5 pb-5 text-center">
+        <span class=" span pb-1">GET START</span>
+        <h1>A template built for you</h1>
+        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, totam.</p>
+
+        <div class="container">
+            <div class="row pb-5 pt-5">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="./[removal.ai]_tmp-635ebd0047af0.png" alt="" width="150px">
+                    <h5>Professional Design</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit commodi dolore ea iure ipsum
+                        aperiam.</p>
+                    <span class="span pb-1">GET START</span>
+                </div>
+
+
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="./[removal.ai]_tmp-635ebdb8d442d.png" alt="" width="150px">
+                    <h5>Good Driven</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit commodi dolore ea iure ipsum
+                        aperiam.</p>
+                    <span class="span pb-1">GET START</span>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="./[removal.ai]_tmp-635ebdf440765.png" alt="" width="200px" class="pb-2">
+                    <h5>Unlimited Support</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit commodi dolore ea iure ipsum
+                        aperiam.</p>
+                    <span class="span pb-1">GET START</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ CTA START -->
+
+    <div class="container-fluid cta d-flex flex-row-reverse pt-5 pb-5 mb-5 image-fluid">
+        <div class="blue cta-div text-center image-fluid">
+
+            <i class="fa-solid fa-quote-left pb-2"></i>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis fuga
+                reprehenderit a illum quo voluptas pariatur a.</p>
+            <img src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="" width="70px" class="cta-img text-center">
+            <h6 class="">MR AHMED</h6>
+            <p class="">Hr Mnager</p>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ TEAM START -->
+    <div class="container pt-5 pb-5 text-center">
+        <span class="span pb-1">GET START</span>
+        <h1>Trust the professionals</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, exercitationem.</p>
+
+        <div class="row pt-5 pb-3 text-center">
+            <div class="col-lg-3 col-md-3 col-12 text-center">
+                <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" width="100%">
+                <div class="pro-text text-center ">
+                    <h5>Mr Ali</h5>
+                    <p>Ceo INFOSYS</p>
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-3 col-md-3 col-12">
+                <img src="https://images.pexels.com/photos/756484/pexels-photo-756484.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" width="100%">
+                <div class="pro-text text-center ">
+                    <h5>Mr Ali</h5>
+                    <p>Ceo INFOSYS</p>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-3 col-12overlapdiv text-center">
+                <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" width="100%">
+                <div class="pro-text text-center ">
+                    <h5>Mrs Ali</h5>
+                    <p>Ceo INFOSYS</p>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-3 col-12 overlapdiv text-center">
+                <img src="https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" width="100%">
+                <div class="pro-text text-center bg-white overlap">
+                    <h5>Mrs Ali</h5>
+                    <p>Ceo INFOSYS</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <span class="span pb-1">WE ARE HIRING</span>
+            <H5 class="pt-2">SEND YOUR CV</H5>
+            <span class="span pb-1">SEND HERE YOUR APPLICATION</span>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ NEWSLETTER START -->
+
+    <div class="container-fluid image-fluid pt-5 pb-5">
+        <img src="./GETTING STARTED (1980 × 1080 px) (1980 × 700 px).png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""
+            width="" height="60vh" class="image-fluid">
+    </div>
+
+
+    <div class="container stay pb-5 pt-5 text-center">
+        <span class="span pb-1">SUBSCRIBE</span>
+        <h2 class="pt-2">Stay in the know</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, fugiat. <br> Lorem ipsum dolor sit.</p>
+        <br>
+
+        <div class="container">
+
+            <div class="row height-100 d-flex justify-content-center align-items-center">
+
+                <div class="col-md-8">
+
+                    <div class="search position-relative">
+                        <input class="form-control" placeholder="Your email address">
+                        <button class="btn btn-primary position-absolute">SUBSCRIBE </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  BEFORE FOOTER IMAGESTART -->
+
+
+
+    <div class="container">
+        <img src="./bcdch.png" alt="" class="image-fluid" width="100%">
+    </div>
+
+
+
+
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ FOOTER START -->
+
+    <footer>
+        <div class="container-fluid blue pt-5 pb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <img src="./[removal.ai]_tmp-635ebdf440765.png" alt="" width="100px">
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi omnis,
+                            molestiae adipisci quam ad deleniti.</p>
+                        <div class="media-icons pt-3 fticon d-flex justify-content-center pb-2">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-lg-2 col-md-2 col-4  text-center text-white">
+                        <h6 class="font-weight-bold">Profile</h6>
+                        <p>home</p>
+                        <p>Profile</p>
+                        <p>About</p>
+                        <p>Contact</p>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-2 col-4  text-center text-white">
+                        <h6 class="font-weight-bold">Resourves</h6>
+                        <p>home</p>
+                        <p>Profile</p>
+                        <p>About</p>
+                        <p>Contact</p>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-2 col-4  text-center text-white">
+                        <h6 class="font-weight-bold">Company</h6>
+                        <p>home</p>
+                        <p>Profile</p>
+                        <p>About</p>
+                        <p>Contact</p>
+                    </div>
+
+
+                </div>
+                <p class="text-center text-white pt-5">All rights reserved @2022</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
