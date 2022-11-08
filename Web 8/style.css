@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+
+    background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 60, 0.8)), url(./pexels-fauxels-3184302.jpg);
+    height: 100vh;
+  width: 100% !important;
+}
+
+.mainh{
+    padding-top: 180px;
+    
+}
+.card-body{
+  padding: 79px !important;
+}
+.img-bottom{
+padding-bottom: 50px !important;
+}
+
+.div{
+    margin: 10px;
+}
+.divdo{
+    padding-top: 120px;
+    padding-bottom: 120px;
+   background-color: rgba(128, 128, 128, 0.5);
+}
+
+.divdo1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-top: -20px !important;
+    margin-bottom: -20px;
+}
+
+.fa-network-wired{
+    color: pink;
+}
